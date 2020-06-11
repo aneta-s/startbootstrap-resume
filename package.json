@@ -3,6 +3,7 @@
     "name": "startbootstrap-resume",
     "version": "6.0.0",
     "scripts": {
+        "deploy": "gh-pages -d dist",
         "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets",
         "build:assets": "node scripts/build-assets.js",
         "build:pug": "node scripts/build-pug.js",
@@ -21,8 +22,8 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/resume",
-    "bugs": {
+    "homepage": "https://aneta-s.github.io/resume",
+        "bugs": {
         "url": "https://github.com/BlackrockDigital/startbootstrap-resume/issues",
         "email": "feedback@startbootstrap.com"
     },
